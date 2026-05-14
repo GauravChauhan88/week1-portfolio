@@ -64,3 +64,11 @@ To ensure the project meets the "Code Structure" requirement, the following arch
 | **Asset Integrity** | Verifying the rendering of `profile.jpg` in the navbar. | Image displays correctly as a circular frame with a 2px border. | **Passed** |
 | **Link Accessibility** | Clicking the LinkedIn profile link in the footer. | Opens [LinkedIn Profile](https://www.google.com/search?q=https://www.linkedin.com/in/gauravchauhan101) in a new tab. 
 
+## 🎓 About the Developer
+
+Name: Gaurav Chauhan   
+
+
+Education: BCA+MCA Dual Degree, Amity University Noida (2027)   
+
+Focus: Full-Stack Development, Data Analytics, and Cloud Computing
