@@ -51,3 +51,22 @@ footer { text-align: center; padding: 40px 0; background: #1a202c; color: #fff; 
     .nav-links.active { left: 0; }
     .nav-links li { margin: 20px 0; }
 }
+
+/* Contact Form Styling */
+.form-group { margin-bottom: 1.5rem; text-align: left; }
+
+.contact-form input:invalid:focus {
+    border-color: #e53e3e; /* Red border if email is invalid */
+}
+
+.hidden { display: none; }
+
+#form-status {
+    margin-top: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.status-success { color: #2f855a; background: #f0fff4; }
+.status-error { color: #c53030; background: #fff5f5; }
