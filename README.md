@@ -45,12 +45,19 @@ Fig 2: Mobile Navigation: A screenshot taken in mobile view (inspect element) wi
 
 Fig 3: Grid Implementation: A screenshot of the Projects section showing the three-column layout (Desktop).
 
+<img width="33%" height="935" alt="image" src="https://github.com/user-attachments/assets/b77e639e-4441-47fc-a14d-32a217657c2b" />
+<img width="33%" height="957" alt="image" src="https://github.com/user-attachments/assets/d33d3151-e94f-44a2-8394-f9801830db9c" />
+<img width="33%" height="942" alt="image" src="https://github.com/user-attachments/assets/aa5efd10-3c24-4393-9a84-4eae2c5df26b" />
+
+
+Fig 4: Form Validation: A screenshot of the Projects section showing form validation.
+
 
 ## 5. Technical Detail: Architecture
 To ensure the project meets the "Code Structure" requirement, the following architecture was used:
 1. HTML5 (Structure): Used for defining the document's semantic sections including header, main, and section.
 2. CSS3 (Presentation): Employed for the visual theme, utilizing variables for consistent color schemes and media queries for device responsiveness.
-3. JavaScript (Behavior): Utilized for DOM manipulation to toggle navigation states and handle user interaction events.
+3. JavaScript (Behavior): Utilized for DOM manipulation to toggle navigation states and handle user interaction events and form validation.
 
 
 ## 6. Testing & Validation Evidence
@@ -61,6 +68,7 @@ To ensure the project meets the "Code Structure" requirement, the following arch
 | **Mobile Navigation** | Clicking the Hamburger icon on a mobile device. | JavaScript toggles the `.active` class to reveal the menu. | **Passed** |
 | **Smooth Scrolling** | Clicking "Projects" in the navigation bar. | Page scrolls smoothly to the target section via `navigation.js`. | **Passed** |
 | **Form Validation** | Submitting the contact form with an empty email field. | Browser prevents submission and displays a "required" warning. | **Passed** |
+| **JS Interaction** | Submitting a valid form. | "Thanks, Gaurav will get back to you!" message appears. | **Passed** |
 | **Asset Integrity** | Verifying the rendering of `profile.jpg` in the navbar. | Image displays correctly as a circular frame with a 2px border. | **Passed** |
 | **Link Accessibility** | Clicking the LinkedIn profile link in the footer. | Opens [LinkedIn Profile](https://www.google.com/search?q=https://www.linkedin.com/in/gauravchauhan101) in a new tab. 
 
